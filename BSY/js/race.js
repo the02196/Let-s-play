@@ -21,7 +21,7 @@ document.addEventListener("DOMContentLoaded", function () {
 
                 if (snail.position + snailWidth >= trackWidth) {
                     clearInterval(raceInterval);
-                    resultText.textContent = `${snail}달팽이가 1등으로 도착했습니다!`;
+                    resultText.textContent = `${snail}번 달팽이가 1등으로 도착했습니다!`;
                     startButton.disabled = false;
                 }
             });
